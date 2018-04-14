@@ -1,0 +1,246 @@
+
+@keyframes blink
+    from
+        transform: rotateY(0deg)
+    to
+        transform: rotateY(360deg)
+
+.imgAnimation
+    animation: blink 1s
+
+
+*
+    margin: 0
+    padding: 0
+    text-decoration: none
+    color: black
+    font-family: Arial
+
+.top
+    height: 50px
+    width: 100%
+    position: fixed
+    background: white
+    z-index: 200
+
+
+    img
+        width: 15vw
+        position: relative
+        top: 5px
+        left: 20px
+
+    nav
+        position: absolute
+        top: 0
+        width: 80%
+        max-width: 250px
+        height: 100vh
+        overflow: scroll
+        overflow-x: hidden
+        display: none
+        background: white
+        z-index: 300
+
+
+        .language
+            padding: 15px 7px 13px
+            background: rgb(113, 186, 255)
+            a
+                padding: 10px
+
+        .theme
+
+            h3
+                font-weight: bold
+                padding: 15px 7px 13px
+                border-bottom: 1px solid grey
+                font-size: 17px
+
+            a
+                display: block
+                padding: 15px 20px 13px
+                border-bottom: 1px solid grey
+
+            a:hover
+                border-left: 2px solid rgb(0, 166, 240)
+                color: rgb(0, 166, 240)
+
+
+    #login
+        font-size: 20px
+        color: white
+        background: rgb(113, 186, 255)
+        font-weight: bold
+        padding: 5px 10px
+        position: absolute
+        right: 100px
+        top: 8px
+
+    .burger
+        font-size: 33px
+        position: absolute
+        right: 30px
+        cursor: pointer
+        top: 8px
+
+.showcase
+    background: rgb(208, 208, 208)
+
+    .showcase-container
+        position: relative
+        text-align: center
+
+        img
+            width: 100%
+            padding-top: 50px
+            margin-bottom: -5px
+
+        h1
+            position: absolute
+            color: white
+            font-size: 5vw
+            padding-top: 50px
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+
+    .showcase-links
+        padding: 8px
+
+        a
+            background: yellow
+            display: block
+            text-align: center
+            width: 80%
+            padding: 15px
+            margin: 10px auto
+            font-weight: bold
+            font-size: 19px
+            max-width: 300px
+
+
+        a:nth-child(odd)
+            background: white
+
+article
+
+    margin-top: 20px
+
+    .articleTitle
+        text-align: center
+        font-size: 26px
+        font-weight: lighter
+        margin-bottom: 20px
+
+    .text
+        text-align: center
+        margin-left: 15px
+        margin-right: 15px
+        line-height: 25px
+        width: 55%
+        margin: auto
+        min-width: 250px
+
+    section
+        display: flex
+        justify-content: center
+        flex-wrap: wrap
+
+        figure
+            text-align: center
+            flex-grow: 1 1 0
+            flex-basis: 29%
+            min-width: 250px
+            margin: 20px
+
+            h2
+                font-size: 15px
+                font-weight: lighter
+                margin-top: 20px
+
+            img
+                background: rgb(20, 185, 246)
+                border: 0.0001px solid rgb(20, 185, 246)
+                border-radius: 50%
+                cursor: pointer
+                width: 25.1%
+
+.black
+    background: black
+    font-size: 13px
+    font-weight: 100
+    padding-bottom: 10px
+    padding-top: 10px
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+
+    section
+        margin-top: 20px
+        min-width: 250px
+
+        a
+            color: white
+            font-weight: lighter
+            padding: 10px
+            display: block
+        h3
+            color: white
+            font-weight: lighter
+            padding: 10px
+
+    .footer-links
+        a
+
+            background: white
+            padding: 17px
+            color: black
+            margin: 10px auto
+            text-align: center
+            width: 80%
+            font-weight: bold
+
+        a:nth-child(odd)
+            background: yellow
+
+.yellow
+    background: yellow
+
+    h1
+        text-align: center
+        font-size: 20px
+        padding-top: 20px
+    h3
+        display: block
+        text-align: center
+        padding: 10px
+        font-size: 15px
+
+
+@media only screen and (min-width: 800px)
+
+    .top
+        img
+            width: 7vw
+            margin-left: 100px
+            margin-top: 10px
+
+    .showcase
+        background: none
+
+        .showcase-links
+            display: flex
+            padding: 0
+            top: 37vw
+            justify-content: space-around
+            width: 100%
+            position: absolute
+
+            a
+                flex: 1 1 0
+                margin: 20px
+                opacity: 0.8
+
+    .burger
+        visibility: hidden
