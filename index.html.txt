@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PEAX - Der digitale Briefkasten</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="peaxicon.png"/>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+    </script>
+    <script src="action.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <a href="#"><img src="logo.png" alt=""></a> <!-- PEAX LOGOS -->
+            <nav> <!-- NAVIGATION BAR -->
+                <div class="language">
+                    <a href="#">DE</a>
+                    <a href="#">EN</a>
+                    <a href="#">FR</a>
+                    <a href="#">IT</a>
+                </div>
+                <div class="links">
+                    <div class="theme">
+                        <h3 class="themeTitle">HOW IT WORKS</h3>
+                        <a href="#">For me</a>
+                        <a href="#">For companies and associations</a>
+                        <a href="#">For public administrations</a>
+                    </div>
+                    <div class="theme">
+                        <h3 class="themeTitle">ABOUT PEAX</h3>
+                        <a href="#">Vision</a>
+                        <a href="#">Team</a>
+                        <a href="#">Partnerships and cooperations</a>
+                        <a href="#">Contact</a>
+                        <a href="#">Jobs</a>
+                    </div>
+                    <div class="theme">
+                        <h3 class="themeTitle">PEAX IS SECURE</h3>
+                        <a href="#">Data protection</a>
+                        <a href="#">Authentication</a>
+                        <a href="#">Swiss hosting</a>
+                        <a href="#">Encryption</a>
+                        <a href="#">PEAX ID levels</a>
+                        <a href="#">Quality assurance</a>
+                    </div>
+                    <div class="theme">
+                        <h3 class="themeTitle">PEAX REPORTS</h3>
+                        <a href="#">Social media</a>
+                        <a href="#">Timeline</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="left-top">
+                <a id="login" href="">LOGIN</a>
+                <i class="fa fa-bars burger" aria-hidden="true"></i>
+            </div>
+        </div>
+            <div class="showcase">
+                <div class="showcase-container">
+                    <img src="background.png" alt="">
+                    <h1>Make life easier <br> with the digital <br> postbox from PEAX</h1>
+                </div>
+                <div class="showcase-links">
+                    <a href="">DISCOVER PEAX</a>
+                    <a href="">REGISTER</a>
+                    <a href="">WATCH VIDEO <i class="fa fa-caret-square-o-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="feature">
+
+            </div>
+            <article class="">
+                <h2 class="articleTitle">PEAX makes life easier!</h2>
+                <p class="text">
+                    Want less paperwork and greater transparency? Looking to manage your mail quickly and easily? The PEAX portal is the simple and free way to receive your daily mail digitally. Invoices can be paid with just a few clicks and documents can be filed securely in the PEAX smart archive. You can access your PEAX portal anytime and anywhere on your smartphone, tablet or PC.
+                </p>
+                <section>
+                    <figure>
+                        <img src="https://peax.ch/assets/hero-icons/_resampled/ScaleWidthWyIxMDQiXQ/Briefkasten.png" alt="">
+                        <h2>Digital postbox</h2>
+                    </figure>
+                    <figure>
+                        <img src="https://peax.ch/assets/hero-icons/_resampled/ScaleWidthWyIxMDQiXQ/Zahlen.png
+                        " alt="">
+                        <h2>Secure and flexible payment</h2>
+                    </figure>
+                    <figure>
+                        <img src="https://peax.ch/assets/hero-icons/_resampled/ScaleWidthWyIxMDQiXQ/Ablage.png
+                        " alt="">
+                        <h2>Smart archive</h2>
+                    </figure>
+                    <figure>
+                        <img src="https://peax.ch/assets/hero-icons/_resampled/ScaleWidthWyIxMDQiXQ/Adressaenderung.png" alt="">
+                        <h2>Electronic change of address</h2>
+                    </figure>
+                    <figure>
+                        <img src="https://peax.ch/assets/hero-icons/_resampled/ScaleWidthWyIxMDQiXQ/Multi-Devices.png
+                        " alt="">
+                        <h2>Multiple Devices</h2>
+                    </figure>
+                    <figure>
+                        <img src="https://peax.ch/assets/hero-icons/_resampled/ScaleWidthWyIxMDQiXQ/sammelcouvert-new.png
+                        " alt="">
+                        <h2>PEAX envelope</h2>
+                    </figure>
+                </section>
+            </article>
+            <footer>
+                <div class="black">
+                    <section>
+                        <h3>HOW IT WORKS</h3>
+                        <a href="#">For me</a>
+                        <a href="#">For companies and associations</a>
+                        <a href="#">For public administrations</a>
+                    </section>
+                    <section>
+                        <h3>ABOUT PEAX</h3>
+                        <a href="#">Vision</a>
+                        <a href="#">Team</a>
+                        <a href="#">Partnership and cooperations</a>
+                        <a href="#">Contact</a>
+                        <a href="#">Jobs</a>
+                    </section>
+                    <section>
+                        <h3>PEAX IS SECURE</h3>
+                        <a href="#">Data protection</a>
+                        <a href="#">Authentication</a>
+                        <a href="#">Swiss hosting</a>
+                        <a href="#">Encryption</a>
+                        <a href="#">PEAX ID levels</a>
+                        <a href="#">Quality assurance</a>
+                    </section>
+                    <section>
+                        <h3>PEAX REPORTS</h3>
+                        <a href="#">Social media</a>
+                        <a href="#">Timeline</a>
+                    </section>
+                    <section class="footer-links">
+                        <a href="#">REGISTER</a>
+                        <a href="#">SUBSCRIBE TO NEWSLETTER</a>
+                    </section>
+                </div>
+                <div class="yellow">
+                    <h1>PEAX - Top of Information</h1>
+                    <h3>Contact</h3>
+                    <h3>AGB</h3>
+                    <h3>Legal disclosure</h3>
+                </div>
+            </footer>
+        </div>
+</body>
+</html>
